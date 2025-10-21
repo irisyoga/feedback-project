@@ -2,7 +2,7 @@
 
 body {
   font-family: sans-serif;
-  background-color: #D3D3D3;
+  background-color: #979da3;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,7 +17,7 @@ body {
 .counter {
   width: 200px;
   height: 200px;
-  background-color: lightgray;
+  background-color: #F8F9FA;
   display: flex;
   align-items: center;
   justify-content: center;

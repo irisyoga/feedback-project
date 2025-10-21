@@ -12,21 +12,21 @@ function App() {
       <div className="buttons">
         <button
           style={{ backgroundColor: "lightblue" }}
-          onClick={() => setColor("lightblue")}
+          onClick={() => setColor("Blue")}
         >
-          Light Blue
+          Blue
         </button>
         <button
           style={{ backgroundColor: "lightgreen" }}
-          onClick={() => setColor("lightgreen")}
+          onClick={() => setColor("Green")}
         >
-          Light Green
+          Green
         </button>
         <button
           style={{ backgroundColor: "lightpink" }}
-          onClick={() => setColor("lightpink")}
+          onClick={() => setColor("Red")}
         >
-          Light Red
+          Red
         </button>
       </div>
     </div>
