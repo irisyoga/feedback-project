@@ -1,4 +1,6 @@
+
 import { useState } from "react";
+import MyButton from "./components/MyButton/MyButton";
 import "./App.css";
 
 function App() {
@@ -10,24 +12,17 @@ function App() {
         Container color
       </div>
       <div className="buttons">
-        <button
-          style={{ backgroundColor: "lightblue" }}
-          onClick={() => setColor("Blue")}
-        >
-          Blue
-        </button>
-        <button
-          style={{ backgroundColor: "lightgreen" }}
-          onClick={() => setColor("Green")}
-        >
-          Green
-        </button>
-        <button
-          style={{ backgroundColor: "lightpink" }}
-          onClick={() => setColor("Red")}
-        >
+        <MyButton variant="danger" onClick={() => setColor("red")}>
           Red
-        </button>
+        </MyButton>
+
+        <MyButton variant="success" onClick={() => setColor("green")}>
+          Green
+        </MyButton>
+
+        <MyButton variant="primary" onClick={() => setColor("blue")}>
+          Blue
+        </MyButton>
       </div>
     </div>
   );
